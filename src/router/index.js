@@ -6,6 +6,7 @@ import Login from "@/components/Login";
 import Signup from "@/components/Signup";
 import ListGame from "@/components/ListGame";
 import Account from "@/components/Account";
+import Home from "@/components/Home";
 
 Vue.use(Router);
 
@@ -14,8 +15,8 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "login",
-      component: Login
+      name: "Home",
+      component: Home
     },
     {
       path: "/signup",

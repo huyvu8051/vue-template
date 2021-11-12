@@ -11,14 +11,6 @@ Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 
-const ipRegex = require('ip-regex')
-var ipAddress = window.location.host
-var match = ipAddress.match(ipRegex())
-
-var baseUrl = window.location.protocol + '//' + match[0];
-
-Vue.prototype.$baseurl = baseUrl
-
 var eventBus = new Vue();
 Vue.prototype.$eventBus = eventBus;
 

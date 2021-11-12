@@ -1,17 +1,27 @@
 <template>
   <v-app>
+    <Navigation />
+    <Header/>
     <router-view></router-view>
+    <Footer/>
     <GameNofication />
   </v-app>
 </template>
 
 <script>
 import GameNofication from "@/components/GameNofication";
+import Navigation from "@/components/Navigation";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
 export default {
   name: "App",
   components: {
-    GameNofication: GameNofication
-  }
+    GameNofication: GameNofication,
+    Navigation: Navigation,
+    Header: Header,
+    Footer: Footer
+  },
 };
 </script>
 
