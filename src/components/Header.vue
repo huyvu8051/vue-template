@@ -2,7 +2,7 @@
   <v-app-bar app flat hide-on-scroll>
     <v-app-bar-nav-icon @click="drawer"></v-app-bar-nav-icon>
     <v-toolbar-title class="text-uppercase grey--text">
-      <span>Pacheesi</span>
+      <span>BobVu</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <AccountPanel />
