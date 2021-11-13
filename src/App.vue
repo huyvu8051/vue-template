@@ -7,9 +7,9 @@
       <v-layout align-center justify-center>
         <v-flex xs12 sm12 md8>
           <v-main>
-            <Parallax />
+            <Parallax/>
             <Breadcrumbs/>
-            <router-view></router-view>
+            <router-view class="rounded-lg"></router-view>
           </v-main>
         </v-flex>
       </v-layout>

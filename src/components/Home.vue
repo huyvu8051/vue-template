@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card >
     <v-toolbar color="pink" dark dense flat>
       <v-toolbar-title class="text-body-2"> Chúng ta của hiện tại, heo khô đi những kỉ niệm xưa kia </v-toolbar-title>
     </v-toolbar>

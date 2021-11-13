@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app flat hide-on-scroll dark>
+  <v-app-bar app flat hide-on-scroll>
     <v-app-bar-nav-icon @click="drawer"></v-app-bar-nav-icon>
     <v-toolbar-title class="text-uppercase grey--text">
       <span>BobVu</span>
