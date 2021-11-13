@@ -69,5 +69,10 @@
         ],
       }
     },
+    methods:{
+      next(){
+
+      }
+    }
   }
 </script>
