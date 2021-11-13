@@ -2,10 +2,18 @@
   <v-app>
     <Navigation />
     <Header />
-    <v-main>
-      <Particles />
-      <router-view></router-view>
-    </v-main>
+    <Particles />
+    <v-container fluid fill-height rounded-lg>
+      <v-layout align-center justify-center>
+        <v-flex xs12 sm12 md8>
+          <v-main>
+            <Parallax />
+            <Breadcrumbs/>
+            <router-view></router-view>
+          </v-main>
+        </v-flex>
+      </v-layout>
+    </v-container>
     <Footer />
     <GameNofication />
   </v-app>
@@ -18,6 +26,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Particles from "@/components/Particles";
 
+import Parallax from "@/components/Parallax";
+import Breadcrumbs from "@/components/Breadcrumbs";
+
 export default {
   name: "App",
   components: {
@@ -26,7 +37,12 @@ export default {
     Header: Header,
     Footer: Footer,
     Particles: Particles,
+    Parallax: Parallax,
+    Breadcrumbs:Breadcrumbs
   },
+  data: () => ({
+    
+  }),
 };
 </script>
 

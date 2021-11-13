@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer v-model="drawer" absolute temporary app>
+  <v-navigation-drawer v-model="drawer" absolute temporary app dark>
     <v-list nav dense>
       <v-list-item-group v-model="group" active-class="deep-purple--text text--accent-4">
         <v-list-item :to="{ name: 'game' }">
